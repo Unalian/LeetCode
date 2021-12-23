@@ -1,0 +1,32 @@
+1 2
+列表列表去重：.sort()
+平方:pow(2, 2)
+
+print(test_list.index(max(test_list)))
+a,b = b , a
+
+# 读取
+
+def read_data():
+    try:
+        data = []
+        while True:
+            one_line = list(map(int, sys.stdin.readline().split()))
+            if len(one_line) == 0:
+                break
+            data.append(one_line)
+        return data
+    except:
+        pass
+
+# 原地反转字典
+
+def func(dirct):
+    dirct = {y : x for x, y in dirct.items()}
+    print(dirct)
+
+# 正无穷大
+float("inf")
+
+# 三元运算符
+ print('a的值比较大！') if a > b else print('b的值比较大！')
